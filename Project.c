@@ -5,7 +5,7 @@
 struct books {
     char Title[30];
     int Id;
-}bookks[10];
+}bookks[1000] = { {"sara",35465},{"Youmna",12356},{"Youssef",15784},{"Mazen",8594384},{"Ahmed",5585},{"omar",921},{"Yasmin",4632},{"Tasnem",55856}, {"Mona",861632},{"Omnia",512126} }};
 
 struct registe {
     int id;
@@ -29,8 +29,25 @@ void add_book();
 int main()
 {
     //books bookks[Books_counter];
+ //   bookks->Title[2]="Youmna";
+ //   bookks->Title[3]="Ali";
+ //    bookks->Title[4]="Hany";
+ //    bookks->Title[5]="Youssef";
+ //    bookks->Title[6]="Ahmed";
+ //    bookks->Title[7]="Yasmin";
+ //    bookks->Title[8]="Tasnem";
+ //    bookks->Title[9]="omar";
+ //   bookks[1].Id=758;
+ //   bookks[2].Id=5585;
+ //   bookks[3].Id=8221;
+ //   bookks[4].Id=531;
+ //   bookks[5].Id=231;
+ //   bookks[6].Id=921;
+ //   bookks[7].Id=7565;
+ //   bookks[8].Id=0535;
+ //    bookks[9].Id=4632;
 
-
+    system("color f1");
     while (running)
     {
         menu();
@@ -39,7 +56,6 @@ int main()
             break;
         }
     }
-
 
     return 0;
 }
@@ -212,5 +228,3 @@ void exit0() {
     ext = 1;
 
 }
-
-
